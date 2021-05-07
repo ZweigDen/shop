@@ -1,0 +1,95 @@
+// header
+.index1{
+    background-image: url(../../images/index-1.jpg);
+    height: 100vh;
+    background-position: center right;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    margin-top: -100px;
+}
+// main
+.index2{
+    background-image: url(../../images/index-5.jpg);
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+}
+    // 跑馬燈
+.marginRight{
+    margin-right: -100px;
+}
+.imgSize{
+    width: 350px;
+    height: 350px;
+    background-position: center center;
+    background-size: cover;
+}
+// footer
+.footer{
+    background-image: url(../../images/footer.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+.footerInput{
+    opacity:0.2;
+    border-radius:4px 0 0 4px;
+    width: 286px;
+}
+.footerTittle{
+    font-size:  48px;
+}
+
+@media(max-width:768px){
+    .index1{
+        background-position: center center;
+        background-size: cover;
+        margin-top: -84px;
+        h1{
+            color:#fff;
+            text-align: center;
+        }
+        h4{
+            color:#FFFFFF99;
+            text-align: center;
+        }
+    }
+    .craft{
+        color: #fff;
+    }
+    .positionAbsolute{
+        position:absolute;
+        bottom:24px;
+    }
+    .index2{
+        padding: 24px 0 24px 0;
+
+    }
+    .imgSize{
+        width: 240px;
+        height: 240px;
+    }
+    .footer{
+        height: 224px;
+        &Tittle{
+            font-size:  32px;
+        }
+        &Input{
+            width: 211px;
+        }
+    }
+}
+@media (max-width: 320px){
+    .imgSize{
+        width: 180px;
+        height: 180px;
+    }
+    .footer{
+        &Input{
+            width: 160px;
+        }
+        &Tittle{
+            font-size:  24px;
+        }
+    }
+}

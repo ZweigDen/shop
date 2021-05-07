@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/node_modules/swiper/swiper-bundle.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style/css/all.min.css">
+    <title>Craftsman</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="mb-6">
+        <!-- navbar -->
+        <section class="container">
+            <div class="py-md-4 py-3 d-flex justify-content-between align-items-center">
+                <!-- 隱藏漢堡選單按鈕 -->
+                <a class='d-sm-none text-white btnMenu btn'><i class="fas fa-bars h4"></i></a>
+                <h4 style="font-family:'Raleway'" class="font-italic craft">CRAFTsMAN</h4>
+                <ul class="list-unstyled d-flex align-items-center mb-0">
+                    <li class="d-none d-sm-block"><a href="product.html" class="text-white">Product</a></li>
+                    <li class="ml-5 d-none d-sm-block"><a href="#" class="text-white">Blog</a></li>
+                    <li class="ml-5 d-none d-sm-block"><a href="#" class="text-white">Contact</a></li>
+                    <li class="ml-md-5 mb-0"><a href="#" class="text-white"><i class="fas fa-shopping-cart h4"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- indexbg -->
+        <section class="index1 d-flex align-items-center">
+            <div class="container">
+                <div class="row flex-column">
+                    <div class="col-sm-5 mb-4">
+                        <h1 class="font-weight-bold">Enjoy Your Minimalist Lifestyle.</h1>
+                    </div>
+                    <div class="col-sm-5 mb-sm-5">
+                        <h4 class="text-gray">The best crafts in Taiwan. Get your free shipping on the first order.</h4>
+                    </div>
+                    <div class="col-sm-2 d-block positionAbsolute">
+                        <a href="product.html" class="btn btn-primary w-100 py-3 font-weight-bold">Shop now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 隱藏選單 mobileOpen -->
+        <section class="bg-white fixed-top d-none" id="mobileMenu" style="min-height:100vh;">
+            <div class="card">
+                <div class="card-body">
+                    <ul class="list-unstyled d-flex justify-content-between">
+                        <li><a href="#" class="text-dark btnMenu"><i class="fas fa-arrow-left h4"></i></a></li>
+                        <li><a href="#" class="text-dark"><i class="fas fa-shopping-cart h4"></i></a></li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card border-bottom mb-4">
+                            <div class="mb-3 btn btn-link text-dark" id="headingOne">
+                                <h4 data-toggle="collapse" data-target="#collapseOne">Product</h4>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="">
+                                    <ul class="list-unstyled text-gray">
+                                        <li class="d-flex align-items-top mb-3">ALL<span class="h6">24</span></li>
+                                        <li class="d-flex align-items-top mb-3">BOWL<span class="h6">10</span></li>
+                                        <li class="d-flex align-items-top mb-3">CUP<span class="h6">8</span></li>
+                                        <li class="d-flex align-items-top mb-3">PLATE<span class="h6">3</span></li>
+                                        <li class="d-flex align-items-top">VASE3<span class="h6">3</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-bottom mb-4">
+                            <div class="mb-3 btn btn-link text-dark" id="headingTwo">
+                                <h4 data-toggle="collapse" data-target="#collapseTwo">Blog</h4>
+                            </div>
+                            <div id="collapseTwo" class="collapse collapsed" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="">
+                                    <ul class="list-unstyled text-gray">
+                                        <li class="d-flex align-items-top mb-3">ALL<span class="h6">24</span></li>
+                                        <li class="d-flex align-items-top mb-3">BOWL<span class="h6">10</span></li>
+                                        <li class="d-flex align-items-top mb-3">CUP<span class="h6">8</span></li>
+                                        <li class="d-flex align-items-top mb-3">PLATE<span class="h6">3</span></li>
+                                        <li class="d-flex align-items-top">VASE3<span class="h6">3</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-bottom">
+                            <div class="mb-3 btn btn-link text-dark" id="headingThree">
+                                <h4 data-toggle="collapse" data-target="#collapseThree">Contact</h4>
+                            </div>
+                            <div id="collapseThree" class="collapse collapsed" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="">
+                                    <ul class="list-unstyled text-gray">
+                                        <li class="d-flex align-items-top mb-3">ALL<span class="h6">24</span></li>
+                                        <li class="d-flex align-items-top mb-3">BOWL<span class="h6">10</span></li>
+                                        <li class="d-flex align-items-top mb-3">CUP<span class="h6">8</span></li>
+                                        <li class="d-flex align-items-top mb-3">PLATE<span class="h6">3</span></li>
+                                        <li class="d-flex align-items-top">VASE3<span class="h6">3</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="overflow-hidden">
+        <!-- 內容1 -->
+        <section class="container mb-6">
+            <div class="row mb-4">
+                <div class="col-sm-6 mb-3">
+                    <img src="assets/images/index-2.jpg" alt="">
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-4 d-flex flex-column justify-content-center">
+                    <h4>Special Clays</h4>
+                    <p class="text-gray">A general body formulation for contemporary earthenware is 25% kaolin, 25%
+                        ball clay, 35% quartz and 15% feldspar.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-sm-6 order-sm-1 mb-3">
+                    <img src="assets/images/index-3.jpg" alt="">
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-4 d-flex flex-column justify-content-center text-sm-right">
+                    <h4>Less is more</h4>
+                    <p class="text-gray">Trimming pottery can transform a weighty Earth-bound pot into one that is a
+                        pleasure to hold, look at, and use.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 mb-3">
+                    <img src="assets/images/index-4.jpg" alt="">
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-4 d-flex flex-column justify-content-center">
+                    <h4>Marvelous Detail</h4>
+                    <p class="text-gray">In Craftsman, the art director, working with marketers, develops or creates an
+                        idea of a new creation.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <!-- 內容2 -->
+        <section class="index2 mb-6">
+            <div class="container h-100">
+                <div class="row justify-content-between align-items-sm-center align-items-between h-100">
+                    <div class="col-sm-4">
+                        <h2 class="text-white font-weight-bold">“I want to make the life more simple by crafts.”</h2>
+                    </div>
+                    <div class="col-sm-4 d-flex flex-column align-items-sm-center justify-content-end">
+                        <div>
+                            <h5 class="text-gray-light">Art Director</h5>
+                            <h4 class="text-white">hsiao-Ming Chen</h4>
+                            <div>
+                                <a href="#">Instagram</a>
+                                <a href="#" class="ml-3">Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 跑馬燈 -->
+        <section class="container mb-6">
+            <div class="swiper-container mySwiper marginRight">
+                <div class="swiper-wrapper" id="indexList">
+                    <!-- 渲染畫面renderingList -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer d-flex align-items-center py-4">
+            <div class="container">
+                <div class="row flex-column">
+                    <div class="col-sm-5 mb-sm-5 mb-4">
+                        <p class="text-white footerTittle font-weight-bold">Subscribe for news and special offers!</p>
+                    </div>
+                    <div class="col-sm-5 btn-group">
+                        <input type="text" class="footerInput p-3 border" placeholder="Your email address">
+                        <button type="button" class="btn btn-primary">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-black py-4">
+            <div class="container">
+                <div class="d-sm-flex align-items-center">
+                    <h4 style="font-family:'Raleway'" class="font-italic text-white mb-5 mb-sm-0">CRAFTsMAN</h4>
+                    <ul class="list-unstyled mb-5 mb-sm-0 order-sm-1 ml-auto d-sm-flex">
+                        <li class="mr-sm-5"><a href="#" class="text-light">Purchase Policy</a></li>
+                        <li class="mr-sm-5"><a href="#" class="text-light">Privacy Policy</a></li>
+                        <li><a href="#" class="text-light">Terms & Conditions</a></li>
+                    </ul>
+                    <h6 class="text-gray-light ml-sm-3 ml-0 mb-0">© 2021. All Rights Reserved.</h6>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="assets/style/node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/all.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>

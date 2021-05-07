@@ -1,0 +1,45 @@
+.productFont{
+  font-size:24px;
+  span{
+    font-size:16px;
+  }
+}
+.productImg{
+  background-position: center center;
+  background-size: cover;
+  &-0, &-4, &-8{
+    height: 350px;
+  }
+  &-1, &-5, &-6{
+    height: 240px;
+  }
+  &-2, &-3, &-7{
+    height: 480px;
+  }
+}
+
+@media(max-width:768px){
+  .productFont{
+    font-size:16px;
+    span{
+      font-size:14px;
+    }
+  }
+  .productImg{
+    &-0, &-1, &-2, &-3, &-4, &-5, &-6, &-7, &-8{
+      height: 161px;
+    }
+  }
+  .card-8{
+    display: none;
+  }
+  .card-columns{
+    column-count: 2;
+    h4{
+      font-size: 16px;
+    }
+    h5{
+      font-size: 12px;
+    }
+  }
+}
